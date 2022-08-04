@@ -458,7 +458,7 @@ background-color: gray;
   height: 85%;
    width:100%;
 }
-@media only screen and (min-width:1080px) and (max-width:1400px) {
+@media only screen and (min-width:1080px) and (max-width:1600px) {
   #project-1-div{
     border: 1px solid black;
     background-color: #f4f6f8;
@@ -558,6 +558,9 @@ background-color: gray;
 #btnbox{
   display: grid;
   gap:20px
+}
+#c-img-my{
+    margin-left: 300px;
 }
 
   
