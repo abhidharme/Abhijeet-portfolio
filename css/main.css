@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
   overflow-x: hidden;
 }
 
@@ -65,6 +66,7 @@ html {
   0% {
     transform: scale(1, 0);
   }
+
   100% {
     transform: scale(1, 1);
   }
@@ -74,6 +76,7 @@ html {
   0% {
     transform: scale(1, 0);
   }
+
   100% {
     transform: scale(1, 1);
   }
@@ -86,7 +89,7 @@ html {
   min-width: 600px;
   transform-origin: top;
   -webkit-animation: animateWave 2000ms cubic-bezier(0.23, 1, 0.32, 1) forwards;
-          animation: animateWave 2000ms cubic-bezier(0.23, 1, 0.32, 1) forwards;
+  animation: animateWave 2000ms cubic-bezier(0.23, 1, 0.32, 1) forwards;
   background-image: url("../images/wave-bg.svg");
   background-position: center;
   background-repeat: no-repeat;
@@ -114,10 +117,12 @@ img.avatar {
 }
 
 @media (min-width: 48em) {
+
   .grid-sizer,
   .grid-item {
     width: 25%;
   }
+
   .grid-item {
     float: left;
     padding: 6px;
@@ -205,9 +210,10 @@ footer a:not(.nav-link) {
   padding: 3px 11px;
   border-radius: 50%;
 }
-.col-md-5{
-    display: flex;
-    /* border: 1px solid red; */
+
+.col-md-5 {
+  display: flex;
+  /* border: 1px solid red; */
 }
 
 /* Additional utility styles */
@@ -263,6 +269,7 @@ footer a:not(.nav-link) {
   .marker {
     padding-right: 0;
   }
+
   .marker:after {
     bottom: -30px;
     left: 50%;
@@ -289,177 +296,196 @@ footer a:not(.nav-link) {
   
 } */
 
-.div101{
+.div101 {
   display: grid;
-  gap:20px;
-  grid-template-columns: repeat(6,1fr);
-  
+  gap: 20px;
+  grid-template-columns: repeat(6, 1fr);
+
   flex-wrap: wrap;
-  
+
 }
 
-#margim-box{
- /* border: 1px solid blueviolet;  */
- width: 120px ;
- height: 120px;
- margin-top: 20px;
- background-color: white;
- border-radius: 3px;
- box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
- 
- 
+#margim-box {
+  /* border: 1px solid blueviolet;  */
+  width: 120px;
+  height: 120px;
+  margin-top: 20px;
+  background-color: white;
+  border-radius: 3px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+
+
 }
-#btn2:hover{
-background-color: gray;
+
+#btn2:hover {
+  background-color: gray;
 }
-#logoid{
-  width: 80px; 
+
+#logoid {
+  width: 80px;
   height: 80px;
   margin: auto;
   /* border: 1px solid green; */
   margin-top: 8px;
-  
+
 }
-#logoid-name{
+
+#logoid-name {
   text-align: center;
   color: rgb(97, 94, 94);
-  
+
 }
 
- @media only screen and (min-width:664px) and (max-width:900px) {
-  
-  .div101{
-  display: grid;
-  grid-template-columns: repeat(4,1fr);
-  flex-wrap: wrap;
-  
-}
-#logoid{
-  width: 80px; 
-  height: 80px;
-  margin: auto;
-  /* border: 1px solid green; */
-  margin-top: 8px;
-  
-}
- }
+@media only screen and (min-width:664px) and (max-width:900px) {
 
- @media only screen and (min-width:482px) and (max-width:663px) {
-  
-  .div101{
-  display: grid;
-  grid-template-columns: repeat(3,1fr);
-  
-  flex-wrap: wrap;
-  
-}
-#logoid{
-  width: 80px; 
-  height: 80px;
-  margin: auto;
-  /* border: 1px solid green; */
-  margin-top: 8px;
-  
-}
- }
- @media only screen and (min-width:300px) and (max-width:481px) {
-  
-  .div101{
-  display: grid;
-  grid-template-columns: repeat(2,1fr);
-  
-  flex-wrap: wrap;
-  
-}
-#logoid{
-  width: 80px; 
-  height: 80px;
-  margin: auto;
-  /* border: 1px solid green; */
-  margin-top: 8px;
-  
-}
- }
- @media only screen and (min-width:100px) and (max-width:300px) {
-  
-  .div101{
-  display: grid;
-  grid-template-columns: repeat(1,1fr);
-  margin-left: 15%;
-  flex-wrap: wrap;
-  
-}
-#logoid{
-  width: 80px; 
-  height: 80px;
-  margin: auto;
-  /* border: 1px solid green; */
-  margin-top: 8px;
-  
-}
- }
+  .div101 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    flex-wrap: wrap;
 
- /* -------------------- */
+  }
 
- #project-1-div{
-   border: 1px solid black;
-   background-color: #f4f6f8;
-   width: 90%;
-   height: 320px;
-   margin: auto;
-   padding: 30px;
-   display: grid;
-   grid-template-columns: repeat(2,65% 35%);
+  #logoid {
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    /* border: 1px solid green; */
+    margin-top: 8px;
+
+  }
+}
+
+@media only screen and (min-width:482px) and (max-width:663px) {
+
+  .div101 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    flex-wrap: wrap;
+
+  }
+
+  #logoid {
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    /* border: 1px solid green; */
+    margin-top: 8px;
+
+  }
+}
+
+@media only screen and (min-width:300px) and (max-width:481px) {
+
+  .div101 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    flex-wrap: wrap;
+
+  }
+
+  #logoid {
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    /* border: 1px solid green; */
+    margin-top: 8px;
+
+  }
+}
+
+@media only screen and (min-width:100px) and (max-width:300px) {
+
+  .div101 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: 15%;
+    flex-wrap: wrap;
+
+  }
+
+  #logoid {
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    /* border: 1px solid green; */
+    margin-top: 8px;
+
+  }
+}
+
+/* -------------------- */
+
+#project-1-div {
+  border: 1px solid black;
+  background-color: #f4f6f8;
+  width: 90%;
+  height: 320px;
+  margin: auto;
+  padding: 30px;
+  display: grid;
+  grid-template-columns: repeat(2, 65% 35%);
   gap: 10px;
- }
- #PI-1{
-  text-align: center;
- }
- #PI-2{
-   border-radius: 3px;
-   background-color: white;
-  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
- }
- 
- #PI-1 h4{
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
 }
-#PI-p1{
+
+#PI-1 {
+  text-align: center;
+}
+
+#PI-2 {
+  border-radius: 3px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+}
+
+#PI-1 h4 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#PI-p1 {
   margin-top: 10px;
   font-size: 12PX;
   margin-left: 7PX;
 }
-#PI-2>p{
+
+#PI-2>p {
   margin-left: 20px;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-#PI-2 #btn1{
+
+#PI-2 #btn1 {
   margin-left: 20px;
   background-color: black;
   border: 3px solid black;
   color: white;
-  font-family:Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
 }
-#PI-2 #btn2{
+
+#PI-2 #btn2 {
   margin-left: 20px;
   border: 2px solid black;
   background-color: white;
-  font-family:Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
 }
-#btn2:hover{
+
+#btn2:hover {
   background-color: gray;
 }
-#btnbox{
+
+#btnbox {
   display: flex;
 }
-#PI-1 img{
+
+#PI-1 img {
   height: 85%;
-   width:100%;
+  width: 100%;
 }
+
 @media only screen and (min-width:1080px) and (max-width:1600px) {
-  #project-1-div{
+  #project-1-div {
     border: 1px solid black;
     background-color: #f4f6f8;
     width: 90%;
@@ -467,44 +493,50 @@ background-color: gray;
     margin: auto;
     padding: 30px;
     display: grid;
-    grid-template-columns: repeat(2,65% 35%);
-   gap: 0px;
+    grid-template-columns: repeat(2, 65% 35%);
+    gap: 0px;
   }
-  #PI-1,#PI-2{
+
+  #PI-1,
+  #PI-2 {
     height: 100%;
     margin-top: 20px;
- }
- #PI-2{
-   width: 100%;
-  height: 250px;
-}
+  }
+
+  #PI-2 {
+    width: 100%;
+    height: 250px;
+  }
 
 }
-#PI-1 img{
+
+#PI-1 img {
   height: 65%;
-   width:80%;
+  width: 80%;
 }
 
 
 
 @media only screen and (min-width:472px) and (max-width:1000px) {
-  #project-1-div{
+  #project-1-div {
     border: 3px solid black;
     width: 80%;
     height: 550px;
     margin: auto;
-  display: grid;
+    display: grid;
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(2,1fr);
-   
+    grid-template-rows: repeat(2, 1fr);
+
   }
-  #PI-1{
+
+  #PI-1 {
     height: 100%;
- }
- #PI-2{
-   
-  height: 100%;
-}
+  }
+
+  #PI-2 {
+
+    height: 100%;
+  }
 
 }
 
@@ -534,40 +566,41 @@ background-color: gray;
 
 
 @media only screen and (min-width:380px) and (max-width:471.90px) {
-  #project-1-div{
+  #project-1-div {
     border: 3px solid black;
     width: 80%;
     height: 650px;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(2,1fr);
-   
+    grid-template-rows: repeat(2, 1fr);
+
   }
-  #PI-1{
+
+  #PI-1 {
     height: 100%;
- }
- #PI-2{
-  margin-top: -54%;
+  }
 
-}
- #PI-1 img{
-  height: 50%;
-   width:100%;
-}
-#btnbox{
-  display: grid;
-  gap:20px
-}
-#c-img-my{
-    margin-left: 300px;
-}
+  #PI-2 {
+    margin-top: -54%;
 
-  
+  }
+
+  #PI-1 img {
+    height: 50%;
+    width: 100%;
+  }
+
+  #btnbox {
+    display: grid;
+    gap: 20px
+  }
+
+
 }
 
 @media only screen and (min-width:200px) and (max-width:380px) {
-  #project-1-div{
+  #project-1-div {
     background-color: white;
     width: 80%;
     border: none;
@@ -575,25 +608,26 @@ background-color: gray;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(2,1fr);
-   margin-left: 0px;
+    grid-template-rows: repeat(2, 1fr);
+    margin-left: 0px;
   }
-  #PI-1{
+
+  #PI-1 {
     height: 100%;
- }
- #PI-2{
-  margin-top: -50%;
+  }
 
-}
- #PI-1 img{
-  height: 50%;
-   width:100%;
-}
-#btnbox{
-  display: grid;
-  gap:20px
-}
-}
+  #PI-2 {
+    margin-top: -50%;
 
+  }
 
+  #PI-1 img {
+    height: 50%;
+    width: 100%;
+  }
 
+  #btnbox {
+    display: grid;
+    gap: 20px
+  }
+}
